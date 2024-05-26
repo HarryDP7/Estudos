@@ -1,0 +1,24 @@
+let contador = 1;
+while (contador <=10) {
+console.log (contador)
+contador++;
+}
+
+let contador = 1;
+while (contador >=0) {
+console.log (contador)
+contador--;
+}
+
+
+let numeroMaximo = prompt (Escolha um número para a contagem regressiva);
+while (cnumeroMaximo >=0) {
+console.log (numeroMaximo)
+contador--;
+}
+
+let numeroMaximo = prompt (Escolha um número para a contagem regressiva);
+while (cnumeroMaximo <= numeroMaximo) {
+console.log (numeroMaximo)
+contador++;
+}
