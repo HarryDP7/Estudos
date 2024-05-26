@@ -1,0 +1,33 @@
+diaDaSemana = prompt ('Qual é o dia da semana?')
+if (diaDaSemana == 'Sabado') {
+    alert('Bom final de Semana')
+}
+else if (diaDaSemana == 'Domingo'){
+   alert('Bom final de Semana')
+}
+else {alert('Boa semana!')}
+
+//Desafio 2
+
+numero = prompt ('digite um número positivo ou negativo')
+if (numero > 0) {
+    alert ('O seu número é positivo')
+}
+else {alert ('O seu número é negativo')}
+
+//Desafio 3
+pontuacao = 105
+if (pontuacao >= 100){
+   console.log('Parabéns, você venceu!')
+}
+else {
+   console.log('Tente novamente para ganhar')
+}
+
+//Desafio 4
+let saldoDaConta = 500 //Exemplo de saldo
+alert (`O seu saldo atual na conta é de R$${saldoDaConta}`)
+
+//Desafio 5
+let nomeUsuario = prompt ('Insira o seu nome abaixo')
+alert (`Bem vindo ${nomeUsuario}`)
