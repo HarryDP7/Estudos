@@ -1,0 +1,12 @@
+//Crie uma lista vazia, com o nome listaGenerica
+let listaGenerica = [];
+
+//Crie uma lista de linguagens de programação chamada linguagensDeProgramacao com os seguintes elementos: 'JavaScript','C','C++', 'Kotlin' e 'Python'.
+let linguagensDeProgramação = ['JavaScript' , 'C' , 'C++' , 'Kotlin' , 'Python']
+
+//Adicione à lista linguagensDeProgramacao os seguintes elementos: 'Java', 'Ruby' e 'GoLang'.
+linguagensDeProgramação.push ('Java', 'Ruby', 'GoLang')
+
+//Crie uma lista com 3 nomes e exiba no console apenas o primeiro elemento.
+listaDeNumero = [1, 2, 3]
+console.log(listaDeNumero[0])
